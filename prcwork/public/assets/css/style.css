@@ -329,8 +329,8 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
+[type="submit"] 
+/* {-webkit-appearance: button; } */
   button:not(:disabled),
   [type="button"]:not(:disabled),
   [type="reset"]:not(:disabled),
@@ -377,7 +377,8 @@ legend {
 
 [type="search"] {
   outline-offset: -2px;
-  -webkit-appearance: textfield; }
+  /* -webkit-appearance: textfield;  */
+}
 
 /* rtl:raw:
 [type="tel"],
@@ -9628,7 +9629,8 @@ textarea.form-control-lg {
   background-size: 16px 12px;
   color: #222222;
   appearance: none;
-  vertical-align: middle; }
+  /* vertical-align: middle; */
+ }
   .form-select:focus {
     border-color: #222222;
     outline: 0;
@@ -9721,7 +9723,7 @@ textarea.form-control-lg {
   background-size: contain;
   border: 0.125rem solid #e4e4e4;
   appearance: none;
-  color-adjust: exact;
+  print-color-adjust: exact;
   transition: background-color 0.15s ease-in-out, background-position 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
     .form-check-input {
@@ -10474,7 +10476,7 @@ textarea.form-control-lg {
     font-size: 0.9375rem;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
+    /* -webkit-line-clamp: 2; */
     overflow: hidden;
     line-height: 1.5; }
   .product-card_style8 .reviews-note {
@@ -10789,7 +10791,8 @@ textarea.form-control-lg {
   width: 100%;
   background-color: #ffffff;
   outline: none;
-  -moz-appearance: textfield; }
+  /* -moz-appearance: textfield; */
+ }
 
 .qty-control__reduce,
 .qty-control__increase {
